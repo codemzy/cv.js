@@ -12,7 +12,7 @@ export default ({ children, title = 'This is an example CV' }) => (
     <header>
       <nav className="navbar navbar-light bg-white flex-row-reverse">
         <form className="form-inline">
-          <button className="btn btn-primary" type="button">Create CV</button>
+          <button className="btn btn-outline-primary" type="button">Create CV</button>
         </form>
       </nav>
     </header>
