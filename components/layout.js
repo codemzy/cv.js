@@ -7,12 +7,13 @@ export default ({ children, title = 'This is an example CV' }) => (
       <title>{ title }</title>
       <meta charSet='utf-8' />
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
     </Head>
     <header>
-      <nav>
-        <Link href='/'><a>Home</a></Link> |
-        <Link href='/about'><a>About</a></Link> |
-        <Link href='/contact'><a>Contact</a></Link>
+      <nav className="navbar navbar-light bg-white flex-row-reverse">
+        <form className="form-inline">
+          <button className="btn btn-primary" type="button">Create CV</button>
+        </form>
       </nav>
     </header>
 
