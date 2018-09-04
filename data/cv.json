@@ -18,5 +18,13 @@
     { "time": "2015", "qualification": "Front End Certificate", "from": "freeCodeCamp" },
     { "time": "2008 - 2010", "qualification": "A Levels", "grade": "Science A, Maths B, English A",  "from": "A College" },
     { "time": "2003 - 2008", "qualification": "GCSEs", "from": "A School" }
+  ],
+  "skills": [
+    "Front end development", 
+    "Problem solving", 
+    "JavaScript", 
+    "CSS and styling", 
+    "Front end frameworks", 
+    "Back end development in NodeJS"
   ]
 }

@@ -67,6 +67,18 @@ function Education(props) {
   );
 };
 
+// skills
+function Skills(props) {
+  const listItems = props.skills.map((skill, i) => {
+    return <li key={i}>{skill}</li>;
+  });
+  return (
+    <Section title='Skills'>
+      <ul>{listItems}</ul>
+    </Section>
+  );
+}
+
 
 // cv
 export default () => (
@@ -81,12 +93,7 @@ export default () => (
       <Profile profile={cvData.profile} />
       <Experience experience={cvData.experience} />
       <Education education={cvData.education} />
-      <Section title='Experience'>
-      </Section>
-      <Section title='Education'>
-      </Section>
-      <Section title='Skills'>
-      </Section>
+      <Skills skills={cvData.skills} />
       <Section title='Interests'>
       </Section>
     </div>
