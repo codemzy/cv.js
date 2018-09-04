@@ -16,6 +16,18 @@ function Categories(props) {
   );
 }
 
+// profile
+function Profile(props) {
+  const paragraphs = props.profile.map((paragraph, i) => {
+    return <p key={i}>{paragraph}</p>;
+  });
+  return (
+    <Section title='Profile'>
+      {paragraphs}
+    </Section>
+  );
+}
+
 
 // cv
 export default () => (
@@ -27,9 +39,7 @@ export default () => (
         <div><span className="badge badge-pill badge-success">Available {cvData.availability}</span></div>
       </div>
       <hr/>
-      <Section title='Profile'>
-        <p>An introduction to the person. Keep it snappy, keep it on point, include key facts.</p>
-      </Section>
+      <Profile profile={cvData.profile} />
       <Section title='Experience'>
       </Section>
       <Section title='Education'>
