@@ -13,7 +13,7 @@
     { "time": "2008 - 2010", "place": "Another Company", "role": "Technical Support", "description": "A brief description of the position and the responsibilities. Outline key points, the work carried out, projects and achievements." }
   ],
   "education": [
-    { "time": "2016 - 2017", "qualification": "Other Qualification", "grade": "Distinction", "from": "Awarding Body" },
+    { "time": "2016 - 2017", "qualification": "Qualification", "grade": "Distinction", "from": "Awarding Body" },
     { "time": "2015", "qualification": "Back End Certificate", "from": "freeCodeCamp" },
     { "time": "2015", "qualification": "Front End Certificate", "from": "freeCodeCamp" },
     { "time": "2008 - 2010", "qualification": "A Levels", "grade": "Science A, Maths B, English A",  "from": "A College" },

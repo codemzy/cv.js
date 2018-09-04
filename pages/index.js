@@ -35,8 +35,8 @@ function Experience(props) {
       <div className="row pt-3" key={i}>
         <div className="col-md-4 col-lg-3"><h5 className="text-muted">{experience.time}</h5></div>
         <div className="col-md-8 col-lg-9">
-          <h4>{experience.place}</h4>
-          <h6 className="font-italic text-primary">{experience.role}</h6>
+          <h4>{experience.role}</h4>
+          <h6 className="font-italic">{experience.place}</h6>
           <p>{experience.description}</p></div>
       </div>
     );
@@ -55,9 +55,8 @@ function Education(props) {
       <div className="row pt-3" key={i}>
         <div className="col-md-4 col-lg-3"><h5 className="text-muted">{result.time}</h5></div>
         <div className="col-md-8 col-lg-9">
-          <h4>{result.qualification}</h4>
-          { result.grade ? <h6 className="font-italic text-primary">{result.grade}</h6> : false }
-          <p>{result.from}</p></div>
+          <h4>{result.qualification}{ result.grade ? <span className="font-weight-light"> ({result.grade})</span> : false }</h4>
+          <p className="font-italic">{result.from}</p></div>
       </div>
     );
   });
