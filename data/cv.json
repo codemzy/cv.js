@@ -26,5 +26,10 @@
     "CSS and styling", 
     "Front end frameworks", 
     "Back end development in NodeJS"
-  ]
+  ],
+  "contact": {
+    "phone": "0000 000 000",
+    "email": "you@youremail",
+    "website": "https://codemzy.github.io"
+  }
 }

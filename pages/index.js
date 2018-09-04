@@ -22,7 +22,7 @@ function Profile(props) {
     return <p key={i}>{paragraph}</p>;
   });
   return (
-    <Section title='Profile'>
+    <Section title='About Me'>
       {paragraphs}
     </Section>
   );
@@ -79,6 +79,16 @@ function Skills(props) {
   );
 }
 
+// contact
+function Contact(props) {
+  return (
+    <div className="row row justify-content-md-center">
+      { props.contact.phone ? <div className="col col-12 col-md-auto"><i className="fas fa-phone"></i> {props.contact.phone}</div> : false }
+      { props.contact.email ? <div className="col col-12 col-md-auto"><i className="fas fa-envelope"></i> {props.contact.email}</div> : false }
+      { props.contact.website ? <div className="col col-12 col-md-auto"><i className="fas fa-desktop"></i> <a href={props.contact.website}>{props.contact.website}</a></div> : false }
+    </div>
+  );
+};
 
 // cv
 export default () => (
@@ -90,6 +100,7 @@ export default () => (
         <div><span className="badge badge-pill badge-success">Available {cvData.availability}</span></div>
       </div>
       <hr/>
+      <Contact contact={cvData.contact} />
       <Profile profile={cvData.profile} />
       <Experience experience={cvData.experience} />
       <Education education={cvData.education} />
