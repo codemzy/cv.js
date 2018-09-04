@@ -7,9 +7,9 @@
     "This is the introduction. Keep it snappy, keep it on point, include key facts."
   ],
   "experience": [
-    { "dates": "2016 - Present", "place": "Some Company", "role": "JavaScript Developer", "description": "A brief description of the position and the responsibilities. Outline key points, the work carried out, projects and achievements." },
-    { "dates": "2014 - 2016", "place": "Some Other Company", "role": "Front End Developer", "description": "A brief description of the position and the responsibilities. Outline key points, the work carried out, projects and achievements." },
-    { "dates": "2010 - 2014", "place": "Another Company", "role": "Junior Developer", "description": "A brief description of the position and the responsibilities. Outline key points, the work carried out, projects and achievements." },
-    { "dates": "2008 - 2010", "place": "Another Company", "role": "Technical Support", "description": "A brief description of the position and the responsibilities. Outline key points, the work carried out, projects and achievements." }
+    { "time": "2016 - Present", "place": "Some Company", "role": "JavaScript Developer", "description": "A brief description of the position and the responsibilities. Outline key points, the work carried out, projects and achievements." },
+    { "time": "2014 - 2016", "place": "Some Other Company", "role": "Front End Developer", "description": "A brief description of the position and the responsibilities. Outline key points, the work carried out, projects and achievements." },
+    { "time": "2010 - 2014", "place": "Another Company", "role": "Junior Developer", "description": "A brief description of the position and the responsibilities. Outline key points, the work carried out, projects and achievements." },
+    { "time": "2008 - 2010", "place": "Another Company", "role": "Technical Support", "description": "A brief description of the position and the responsibilities. Outline key points, the work carried out, projects and achievements." }
   ]
 }

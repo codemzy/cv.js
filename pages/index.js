@@ -28,6 +28,26 @@ function Profile(props) {
   );
 }
 
+// experience
+function Experience(props) {
+  const experiences = props.experience.map((experience, i) => {
+    return (
+      <div className="row pt-3" key={i}>
+        <div className="col-md-4 col-lg-3"><h5 className="text-muted">{experience.time}</h5></div>
+        <div className="col-md-8 col-lg-9">
+          <h4>{experience.place}</h4>
+          <h6 className="font-italic text-primary">{experience.role}</h6>
+          <p>{experience.description}</p></div>
+      </div>
+    );
+  });
+  return (
+    <Section title='Experience'>
+      {experiences}
+    </Section>
+  );
+};
+
 
 // cv
 export default () => (
@@ -40,6 +60,7 @@ export default () => (
       </div>
       <hr/>
       <Profile profile={cvData.profile} />
+      <Experience experience={cvData.experience} />
       <Section title='Experience'>
       </Section>
       <Section title='Education'>
