@@ -1,0 +1,35 @@
+{
+  "name": "Example Name",
+  "categories": [ "HTML", "JavaScript", "ReactJS", "NextJS" ],
+  "availability": "Now",
+  "profile": [
+    "Something about how I am hard working (of course) and love to code. I am self-taught, through various online courses, tutorials and projects. Just making this paragraph a little longer with some more text that doesn't mean anything.",
+    "This is the introduction. Keep it snappy, keep it on point, include key facts."
+  ],
+  "experience": [
+    { "time": "2016 - Present", "place": "Some Company", "role": "JavaScript Developer", "description": "A brief description of the position and the responsibilities. Outline key points, the work carried out, projects and achievements." },
+    { "time": "2014 - 2016", "place": "Some Other Company", "role": "Front End Developer", "description": "A brief description of the position and the responsibilities. Outline key points, the work carried out, projects and achievements." },
+    { "time": "2010 - 2014", "place": "Another Company", "role": "Junior Developer", "description": "A brief description of the position and the responsibilities. Outline key points, the work carried out, projects and achievements." },
+    { "time": "2008 - 2010", "place": "Another Company", "role": "Technical Support", "description": "A brief description of the position and the responsibilities. Outline key points, the work carried out, projects and achievements." }
+  ],
+  "education": [
+    { "time": "2016 - 2017", "qualification": "Qualification", "grade": "Distinction", "from": "Awarding Body" },
+    { "time": "2015", "qualification": "Back End Certificate", "from": "freeCodeCamp" },
+    { "time": "2015", "qualification": "Front End Certificate", "from": "freeCodeCamp" },
+    { "time": "2008 - 2010", "qualification": "A Levels", "grade": "Science A, Maths B, English A",  "from": "A College" },
+    { "time": "2003 - 2008", "qualification": "GCSEs", "from": "A School" }
+  ],
+  "skills": [
+    "Front end development", 
+    "Problem solving", 
+    "JavaScript", 
+    "CSS and styling", 
+    "Front end frameworks", 
+    "Back end development in NodeJS"
+  ],
+  "contact": {
+    "phone": "0000 000 000",
+    "email": "you@youremail",
+    "website": "https://codemzy.github.io"
+  }
+}
