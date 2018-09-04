@@ -48,6 +48,26 @@ function Experience(props) {
   );
 };
 
+// education
+function Education(props) {
+  const results = props.education.map((result, i) => {
+    return (
+      <div className="row pt-3" key={i}>
+        <div className="col-md-4 col-lg-3"><h5 className="text-muted">{result.time}</h5></div>
+        <div className="col-md-8 col-lg-9">
+          <h4>{result.qualification}</h4>
+          { result.grade ? <h6 className="font-italic text-primary">{result.grade}</h6> : false }
+          <p>{result.from}</p></div>
+      </div>
+    );
+  });
+  return (
+    <Section title='Education'>
+      {results}
+    </Section>
+  );
+};
+
 
 // cv
 export default () => (
@@ -61,6 +81,7 @@ export default () => (
       <hr/>
       <Profile profile={cvData.profile} />
       <Experience experience={cvData.experience} />
+      <Education education={cvData.education} />
       <Section title='Experience'>
       </Section>
       <Section title='Education'>
