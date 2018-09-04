@@ -105,8 +105,6 @@ export default () => (
       <Experience experience={cvData.experience} />
       <Education education={cvData.education} />
       <Skills skills={cvData.skills} />
-      <Section title='Interests'>
-      </Section>
     </div>
   </Layout>
 );
