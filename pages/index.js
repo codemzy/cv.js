@@ -93,7 +93,7 @@ function Contact(props) {
 // cv
 export default () => (
   <Layout title={cvData.name}>
-    <div className="container">
+    <div className="container mt-5">
       <h1 className="display-1 font-weight-bold">{cvData.name}</h1>
       <div className="d-flex justify-content-between">
         <Categories list={cvData.categories} />
