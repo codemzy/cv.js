@@ -5,13 +5,26 @@ import Section from '../components/section';
 // data
 import cvData from '../data/cv.json';
 
+// categories
+function Categories(props) {
+  const categories = props.list;
+  const listItems = categories.map((category, i) =>
+    <span className="badge badge-dark mr-1" key={i}>{category}</span>
+  );
+  return (
+    <div>{listItems}</div>
+  );
+}
+
+
+// cv
 export default () => (
   <Layout title={cvData.name}>
     <div className="container">
       <h1 className="display-1 font-weight-bold">{cvData.name}</h1>
       <div className="d-flex justify-content-between">
-        <div><span className="badge badge-dark">HTML</span> <span className="badge badge-dark">JavaScript</span> <span className="badge badge-dark">ReactJS</span></div>
-        <div><span className="badge badge-pill badge-success">Available Now</span></div>
+        <Categories list={cvData.categories} />
+        <div><span className="badge badge-pill badge-success">Available {cvData.availability}</span></div>
       </div>
       <hr/>
       <Section title='Profile'>
@@ -27,4 +40,4 @@ export default () => (
       </Section>
     </div>
   </Layout>
-)
+);

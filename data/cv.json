@@ -1,5 +1,7 @@
 {
   "name": "Example Name",
+  "categories": [ "HTML", "JavaScript", "ReactJS", "NextJS" ],
+  "availability": "Now",
   "profile": [
     "Something about how I am hard working (of course) and love to code. I am self-taught, through various online courses, tutorials and projects.",
     "This is the introduction. Keep it snappy, keep it on point, include key facts."
