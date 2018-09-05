@@ -9,7 +9,7 @@ Check out the [example CV](https://codemzy.github.io/cv.js/out) to see how it lo
 Instructions
 ------------
 
-- Fork or copy the repo
+- [Fork or copy the repo](https://github.com/codemzy/cv.js)
 - Add your own CV details to the `data/cv.json` file
 - In the console `npm run build`
 - Your CV will be found as a static site in the `/out` directory
