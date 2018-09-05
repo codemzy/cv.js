@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next"
   },
   "dependencies": {
@@ -17,7 +17,7 @@
     "node": "8.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "url": "https://github.com/codemzy/cv.js"
   },
   "license": "MIT"
 }
