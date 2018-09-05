@@ -3,6 +3,8 @@ Build your online CV with CV.js
 
 A simple CV builder using JSON data to generate a static site CV page built with Next.js and server side React.js
 
+Check out the [example CV](https://codemzy.github.io/cv.js/out) to see how it looks.
+
 
 Instructions
 ------------

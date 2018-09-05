@@ -14,7 +14,7 @@ export default ({ children, title = 'This is an example CV' }) => (
     <header>
       <nav className="navbar navbar-light bg-white flex-row-reverse">
         <form className="form-inline">
-          <a href="https://codemzy.github.io/cv.js" className="btn btn-outline-primary" type="button">Create CV</a>
+          <a href="https://codemzy.github.io/cv.js" className="btn btn-outline-primary">Create CV</a>
         </form>
       </nav>
     </header>
